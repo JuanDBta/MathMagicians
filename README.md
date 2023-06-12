@@ -74,7 +74,7 @@ Coming soon!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<a href="https://juandbta.github.io/MathMagicians/my-app/dist/">Math Magicians Website</a>
+Coming soon!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
