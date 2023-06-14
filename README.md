@@ -71,7 +71,8 @@ Coming soon!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Coming soon!
+- [Live Demo Link](https://juandbta.github.io/math-magicians/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,12 +96,18 @@ Clone this repository to your desired folder:
 ```sh
   cd my-folder
   git clone "https://github.com/JuanDBta/math-magicians.git"
+  cd math-magicians
+  npm install
 ```
 ### Usage
 
-To run the project, execute the following command:
+To run the project, go to /math-magicians directory and execute the following command:
 
-Open mobile.html using live server extension.
+npm start
+
+To run the test, execute the following command:
+
+npm run test
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
