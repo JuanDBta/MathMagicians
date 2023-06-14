@@ -1,15 +1,6 @@
 import React from 'react';
 import './Calculator.css';
-import PropTypes from 'prop-types';
-
-// Child component
-function Button({ label }) {
-  return <button type="button" className="operators">{label}</button>;
-}
-
-Button.propTypes = {
-  label: PropTypes.string.isRequired,
-};
+import Button from './Buttons';
 
 // Calculator component
 function Calculator() {
