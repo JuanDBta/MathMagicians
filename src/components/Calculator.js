@@ -1,39 +1,48 @@
 import React from 'react';
+import './Calculator.css';
+import PropTypes from 'prop-types';
 
-export default function Calculator() {
+// Child component
+function Button({ label }) {
+  return <button type="button" className="operators">{label}</button>;
+}
+
+Button.propTypes = {
+  label: PropTypes.string.isRequired,
+};
+
+// Calculator component
+function Calculator() {
   return (
-    <>
-      <section className="calc-container">
-        <div className="display">0</div>
-        <div className="keyboard">
+    <section className="calc-container">
+      <div className="display">0</div>
+      <div className="keyboard">
 
-          <div className="numbers">
-            <div className="number-buttons">AC</div>
-            <div className="number-buttons">+/-</div>
-            <div className="number-buttons">%</div>
-            <div className="number-buttons">7</div>
-            <div className="number-buttons">8</div>
-            <div className="number-buttons">9</div>
-            <div className="number-buttons">4</div>
-            <div className="number-buttons">5</div>
-            <div className="number-buttons">6</div>
-            <div className="number-buttons">1</div>
-            <div className="number-buttons">2</div>
-            <div className="number-buttons">3</div>
-            <div className="number-buttons">0</div>
-            <div className="number-buttons">.</div>
-          </div>
-
-          <div className="operators">
-            <div className="operators-buttons">÷</div>
-            <div className="operators-buttons">x</div>
-            <div className="operators-buttons">-</div>
-            <div className="operators-buttons">+</div>
-            <div className="operators-buttons">=</div>
-          </div>
-
+        <div className="numbers">
+          <Button label="AC" />
+          <Button label="+/-" />
+          <Button label="%" />
+          <Button label="÷" />
+          <div className="number-buttons">7</div>
+          <div className="number-buttons">8</div>
+          <div className="number-buttons">9</div>
+          <Button label="x" />
+          <div className="number-buttons">4</div>
+          <div className="number-buttons">5</div>
+          <div className="number-buttons">6</div>
+          <Button label="-" />
+          <div className="number-buttons">1</div>
+          <div className="number-buttons">2</div>
+          <div className="number-buttons">3</div>
+          <Button label="+" />
+          <div className="number-buttons-zero-left" />
+          <div className="number-buttons-zero-right">0</div>
+          <div className="number-buttons">.</div>
+          <Button label="=" />
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 }
+
+export default Calculator;

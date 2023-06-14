@@ -1,0 +1,71 @@
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc-container {
+  width: 28vw;
+  height: 29.6vw;
+  margin-top: 6vw;
+  border: 2px black solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.display {
+  width: 100%;
+  height: 3vw;
+  background-color: rgb(129, 122, 122);
+  text-align: right;
+  border-bottom: 2px black solid;
+  font-size: 4vw;
+  padding-bottom: 1.5vw;
+  color: white;
+}
+
+.numbers {
+  display: grid;
+  grid-template-rows: 5vw 5vw 5vw 5vw 5vw;
+  grid-template-columns: 7vw 7vw 7vw 7vw;
+  gap: 0;
+}
+
+.number-buttons {
+  text-align: center;
+  padding-top: 2vw;
+  background-color: rgb(216, 203, 203);
+  border: 1px rgb(124, 119, 119) solid;
+  font-weight: 800;
+  color: black;
+}
+
+.operators {
+  background-color: orange;
+  font-weight: 800;
+  color: black;
+}
+
+.number-buttons-zero-left {
+  border-right: none;
+  background-color: rgb(216, 203, 203);
+  border-top: 1px rgb(124, 119, 119) solid;
+  border-left: 1px rgb(124, 119, 119) solid;
+  border-bottom: 1px rgb(124, 119, 119) solid;
+}
+
+.number-buttons-zero-right {
+  border-left: none;
+  border-top: 1px rgb(124, 119, 119) solid;
+  border-right: 1px rgb(124, 119, 119) solid;
+  border-bottom: 1px rgb(124, 119, 119) solid;
+  background-color: rgb(216, 203, 203);
+  font-weight: 800;
+  color: black;
+  padding-top: 2vw;
+  margin-left: -0.3vw;
+}
