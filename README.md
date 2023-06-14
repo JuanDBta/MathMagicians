@@ -24,6 +24,8 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
+  - [Run Tests](#runtests)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -88,6 +90,7 @@ In order to run this project you need:
 Web Browser (Chrome recommended)
 Code editor (VS recommended)
 GitHub account
+Node.js environment
 
 ### Setup
 
@@ -96,18 +99,35 @@ Clone this repository to your desired folder:
 ```sh
   cd my-folder
   git clone "https://github.com/JuanDBta/math-magicians.git"
-  cd math-magicians
+```
+### Install
+
+Install this project executing the following command:
+
+```sh
   npm install
 ```
+
 ### Usage
 
 To run the project, go to /math-magicians directory and execute the following command:
 
+```sh
 npm start
+```
+
+### Run Tests
 
 To run the test, execute the following command:
 
+```sh
 npm run test
+```
+
+### Deployment
+
+You can deploy this project using: Project not yet complete
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
