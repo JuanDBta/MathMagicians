@@ -2,7 +2,7 @@
 
 <div align="center">
  
-  <img src="src\assets/project-screenshot.jpg" alt="logo" width="160"  height="auto">
+  <img src="src\calc.jpg" alt="logo" width="160"  height="auto">
   <br/>
 
   <h3><b>Math Magicians Website</b></h3>
