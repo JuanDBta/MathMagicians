@@ -2,7 +2,7 @@
 
 <div align="center">
  
-  <img src="src\assets/project-screenshot.jpg" alt="logo" width="160"  height="auto">
+  <img src="src\calc.jpg" alt="logo" width="160"  height="auto">
   <br/>
 
   <h3><b>Math Magicians Website</b></h3>
@@ -24,6 +24,8 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
+  - [Run Tests](#runtests)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -71,7 +73,8 @@ Coming soon!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Coming soon!
+- [Live Demo Link](https://juandbta.github.io/math-magicians/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,6 +90,7 @@ In order to run this project you need:
 Web Browser (Chrome recommended)
 Code editor (VS recommended)
 GitHub account
+Node.js environment
 
 ### Setup
 
@@ -94,13 +98,36 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone "https://github.com/JuanDBta/MathMagicians.git"
+  git clone "https://github.com/JuanDBta/math-magicians.git"
 ```
+### Install
+
+Install this project executing the following command:
+
+```sh
+  npm install
+```
+
 ### Usage
 
-To run the project, execute the following command:
+To run the project, go to /math-magicians directory and execute the following command:
 
-Open mobile.html using live server extension.
+```sh
+npm start
+```
+
+### Run Tests
+
+To run the test, execute the following command:
+
+```sh
+npm run test
+```
+
+### Deployment
+
+You can deploy this project using: Project not yet complete
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
