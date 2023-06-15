@@ -1,6 +1,7 @@
 import React from 'react';
 import './Calculator.css';
 import Button from './Buttons';
+import '../logic/calculate';
 
 // Calculator component
 function Calculator() {
