@@ -36,7 +36,6 @@ body {
 
 .number-buttons {
   text-align: center;
-  padding-top: 2vw;
   background-color: rgb(216, 203, 203);
   border-top: 0.5px rgb(124, 119, 119) solid;
   border-right: 0.5px rgb(124, 119, 119) solid;
@@ -54,7 +53,6 @@ body {
   background-color: rgb(216, 203, 203);
   font-weight: 800;
   color: black;
-  padding-top: 2vw;
   text-align: center;
   cursor: pointer;
 }
@@ -81,32 +79,6 @@ body {
   background-color: #ddd;
 }
 
-.number-buttons-zero-left {
-  border-right: none;
-  background-color: rgb(216, 203, 203);
-  border-top: 0.5px rgb(124, 119, 119) solid;
-  cursor: pointer;
-}
-
-
-.number-buttons-zero-right {
-  border-left: none;
-  border-top: 0.5px rgb(124, 119, 119) solid;
-  border-right: 0.5px rgb(124, 119, 119) solid;
-  background-color: rgb(216, 203, 203);
-  font-weight: 800;
-  color: black;
-  padding-top: 2vw;
-  margin-left: -0.3vw;
-  cursor: pointer;
-}
-
 button {
   border: none;
-}
-
-.number-buttons-zero-left:hover,
-.number-buttons-zero-right:hover {
-  background-color: yellow;
-  /* Otros estilos de resaltado */
 }
