@@ -25,17 +25,17 @@ function Quote() {
     fetchquote();
   }, []);
   if (loading) {
-    return (<p>loading ...</p>);
+    return (<p className="status">loading ...</p>);
   }
   if (error !== null) {
-    return (<p>{error}</p>);
+    return (<p className="status">{error}</p>);
   }
   return (
     <div className="quotes">
-      <p>
+      <p className="quote-text">
         {quote.quote}
       </p>
-      <p>
+      <p className="author">
         {quote.author}
       </p>
     </div>

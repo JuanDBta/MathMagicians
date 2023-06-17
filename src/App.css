@@ -96,9 +96,23 @@ button {
   margin-top: -27vw;
 }
 
-p {
+.quote-text {
   color: rgb(228, 219, 219);
   font-weight: 800;
   font-size: 2.5vw;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.author {
+  color: rgb(235, 88, 88);
+  font-weight: 800;
+  font-size: 2.5vw;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.status {
+  margin-left: 15vw;
+  color: rgb(228, 219, 219);
+  font-weight: 800;
+  font-size: 2.5vw;
 }
