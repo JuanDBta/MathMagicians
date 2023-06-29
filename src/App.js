@@ -17,7 +17,7 @@ function App() {
   );
 
   return (
-    <div>
+    <div className="body">
       <RouterProvider router={router} />
     </div>
   );
@@ -25,11 +25,11 @@ function App() {
 
 const Root = () => (
   <>
-    <nav className="flex">
-      <h1 className="nav-brand">Math Magicians</h1>
-      <ul className="flex">
-        <li><Link to="/calculator" className="nav-item">Calculator</Link></li>
-        <li><Link to="/quote" className="nav-item">Quote</Link></li>
+    <nav className="navbar">
+      <h1 className="navbar-title">Math Magicians</h1>
+      <ul className="navbar-list">
+        <li><Link to="/calculator" className="navbar-item">Calculator</Link></li>
+        <li><Link to="/quote" className="navbar-item">Quote</Link></li>
       </ul>
     </nav>
     <div>
