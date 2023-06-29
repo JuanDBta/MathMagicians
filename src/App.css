@@ -21,7 +21,7 @@ body {
 
 .navbar-title {
   font-size: 5vw;
-  color: aliceblue;
+  color: rgb(241, 175, 52);
   margin-top: -0.5vw;
 }
 
@@ -35,7 +35,7 @@ body {
 
 .navbar-item {
   font-size: 2vw;
-  color: aliceblue;
+  color: rgb(241, 175, 52);
   text-decoration: none;
   cursor: pointer;
   border-right: 2px aliceblue solid;
@@ -60,12 +60,13 @@ h2 {
 }
 
 .home-description {
-  color: rgb(216, 203, 203);
+  color: rgb(241, 175, 52);
   font-size: 2vw;
   font-weight: 400;
   text-align: left;
   margin-top: 2vw;
 }
+
 .calculator-page {
   width: 100%;
   height: auto;
@@ -189,7 +190,7 @@ button {
 .status {
   margin-left: 35vw;
   margin-top: 15vw;
-  color: rgb(228, 219, 219);
+  color: rgb(235, 88, 88);
   font-weight: 800;
   font-size: 2.5vw;
 }
