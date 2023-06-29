@@ -3,7 +3,7 @@ import React from 'react';
 const Home = () => {
   const info = {
     line1: 'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random art-related quote.',
-    line2: 'You can find three sections in our webpage.  This is our welcome section.  In Calculator section you will be able to make simple calcultations and in the Quotes section you can find an inspirational quotes to share some wisdom with you.  I hope you enjoy our site!!!',
+    line2: 'You can find three sections in our webpage.  This is our welcome section.  In Calculator section you will be able to make simple calculations and in the Quotes section you can find an inspirational quote to share some wisdom with you.  I hope you enjoy our site!!!',
   };
   return (
 
