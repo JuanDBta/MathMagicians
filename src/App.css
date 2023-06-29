@@ -42,6 +42,30 @@ body {
   padding-right: 1.5vw;
   font-weight: 800;
 }
+
+.home {
+  width: 90vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+h2 {
+  color: rgb(216, 203, 203);
+  font-size: 4vw;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 10vw;
+}
+
+.home-description {
+  color: rgb(216, 203, 203);
+  font-size: 2vw;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 2vw;
+}
 .calculator-page {
   width: 100%;
   height: auto;
