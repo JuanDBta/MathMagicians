@@ -11,6 +11,83 @@ body {
   background-color: rgb(68, 64, 64);
 }
 
+.navbar {
+  width: 90vw;
+  height: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar-title {
+  font-size: 5vw;
+  color: rgb(241, 175, 52);
+  margin-top: -0.5vw;
+}
+
+.navbar-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  list-style: none;
+  gap: 2vw;
+}
+
+.navbar-item {
+  font-size: 2vw;
+  color: rgb(241, 175, 52);
+  text-decoration: none;
+  cursor: pointer;
+  border-right: 2px aliceblue solid;
+  padding-right: 1.5vw;
+  font-weight: 800;
+}
+
+.home {
+  width: 90vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+h2 {
+  color: rgb(216, 203, 203);
+  font-size: 4vw;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 10vw;
+}
+
+.home-description {
+  color: rgb(241, 175, 52);
+  font-size: 2vw;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 2vw;
+}
+
+.calculator-page {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 1vw;
+}
+
+.calculator-title {
+  width: 100%;
+}
+
+.lets-do {
+  color: rgb(216, 203, 203);
+  font-size: 3.5vw;
+  font-weight: 800;
+  margin-top: 5vw;
+}
+
 .calc-container {
   width: 28vw;
   height: 29.6vw;
@@ -90,10 +167,10 @@ button {
 }
 
 .quotes {
-  width: 50%;
+  width: 80vw;
   height: auto;
-  margin-left: 47vw;
-  margin-top: -27vw;
+  margin-left: 10vw;
+  margin-top: 15vw;
 }
 
 .quote-text {
@@ -111,8 +188,9 @@ button {
 }
 
 .status {
-  margin-left: 15vw;
-  color: rgb(228, 219, 219);
+  margin-left: 35vw;
+  margin-top: 15vw;
+  color: rgb(235, 88, 88);
   font-weight: 800;
   font-size: 2.5vw;
 }
