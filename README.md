@@ -73,7 +73,7 @@ Coming soon!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://juandbta.github.io/math-magicians/)
+- [Math Magicians Site](https://math-magicians-project-4enh.onrender.com/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
